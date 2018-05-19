@@ -1,0 +1,101 @@
+/**
+ First External CSS Stylesheet
+ **/
+
+/*
+Each of these CSS elements is associated with an HTML Element, Class, or ID.
+Flip between this CSS file and the HTML to see how things line up.
+Experiment with deleting lines of code from the CSS to see how it affects the webpage when you refresh in the browser.
+*/
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 150%;
+  color: #333;
+  background: #efeee7;
+}
+
+header {
+  background: #333;
+  padding-left: 300px;
+}
+
+/* This is targeting the entire nav */
+nav {
+  width: 100%; //width should be a percentage for responsiveness
+  height: 38px; //height should be px. Adjust to your liking
+  background-color: #0b98de; //hex color code should be used
+  float: right;
+}
+/*This is targeting a specific navigation tab*/
+nav a {
+    display:block;
+    float: left;
+    overflow: hidden;
+/*We're just setting up fonts settings here*/
+    font-family: sans-serif;
+    font-size: 9px;
+    color: black;
+
+/*
+----------Box Method Test AKA handicap ----------
+    background-color: #D3D3D3;
+    border: 1px solid #000; */
+
+/*Padding Our Box*/
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+/*Let's remove the dumb link decoration*/
+    text-decoration: none;
+ }
+/*This is utilizing a css pseudo-class to change the background color when we hover over a tab */
+nav a:hover {
+    background-color: #D3D3D3
+  }
+
+h1 {
+  padding: 20px 0;
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #eee;
+  text-align: left;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+a {
+  color: #d21034;
+}
+
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+#main-bio,
+#contact-info,
+#bio-image {
+  float: left;
+}
+
+#main-bio {
+  width: 70%;
+}
+
+#contact-info {
+  width: 30%;
+}
+
+#bio-image {
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+}
