@@ -1,0 +1,52 @@
+<!-- CSS Stylesheets with Relative Paths -->
+
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Homework Assignment #1 - Portfolio Page</title>
+
+  <!-- This line is money! It points your HTML to the CSS file. -->
+  <!-- Notice the "relative" pathway? It matches a file inside our current directory's "assets" folder. Open it to see our style rules. -->
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Joseph Perkins</h1>
+      <nav>
+          <ul>
+              <a href="index.html"><li>| About |</li></a>
+              <a href="portfolio.html"><li>| Portfolio |</li></a>
+              <a href="contact.html"><li>| Contact |</li></a>
+          </ul>
+      </nav>  
+  </header>
+
+  <section class="form_wrap">
+      <fieldset>
+          <h4> Portfolio</h4>
+          <hr>
+              <label class="labelone" for="name">Name: </label>
+              <input name="name"/>
+              <label for="email">Email: </label>
+              <input name="email"/>
+              <label for="comments">Comments: </label>
+              <textarea name="comments"></textarea>
+      </fieldset>
+      <fieldset>
+              <input class="btn" type="submit" value="Submit"/>
+<!--          <input class="btn" type="reset" value="Reset Form"/> -->
+      </fieldset>
+<!--       </form> -->
+  </section>
+
+  <footer>
+      <h2 id="footer_label">Copyright @</h2>
+  </footer>
+
+</body>
+
+</html>
