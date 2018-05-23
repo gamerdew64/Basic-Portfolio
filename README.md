@@ -52,7 +52,7 @@ For the current version, please refer to the following repository (https://githu
 
 ## Source Template for Current README
 
-<!-- * <script src="https://gist.github.com/PurpleBooth/109311bb0361f32d87a2.js"></script> -->
+* <script src="https://gist.github.com/PurpleBooth/109311bb0361f32d87a2.js"></script>
 
 ## Acknowledgments
 
