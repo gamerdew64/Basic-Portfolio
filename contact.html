@@ -7,17 +7,15 @@
   <meta charset="UTF-8">
   <title>Homework Assignment #1 - Contact Page</title>
 
-  <!-- This line is money! It points your HTML to the CSS file. -->
-  <!-- Notice the "relative" pathway? It matches a file inside our current directory's "assets" folder. Open it to see our style rules. -->
-  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> <!-- CSS Resets can force every browser to have all its styles reset to null, thus avoiding cross-browser differences as much as possible. -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css"> <!-- This points the HTML to the CSS file. Make sure to use relative paths for the href link rather than absolute links-->
 </head>
 
 <body>
   <header>
-    <h1>Contact Page</h1>
+    <h1>Joseph Perkins</h1>
       <nav>
-          <ul>
+          <ul> <!-- These three hrefs are the links to the differnt HTML pages in the navigation bar -->
               <a href="index.html"><li>| About |</li></a>
               <a href="portfolio.html"><li>| Portfolio |</li></a>
               <a href="contact.html"><li>| Contact |</li></a>
@@ -25,23 +23,23 @@
       </nav>  
   </header>
 
-  <section class="form_wrap">
+  <section class="form_wrap"> <!-- This is the wrapper that includes the portoflio header, and a list of images, along with their labels -->
       <fieldset>
-          <h4> Contact</h4>
+          <h4> Contact:</h4>
           <hr>
-              <label class="labelone" for="name">Name: </label>
-              <input name="name"/>
-              <label for="email">Email: </label>
-              <input name="email"/>
-              <label for="comments">Comments: </label>
-              <textarea name="comments"></textarea>
+              <label class="labelone" for="name">Name:</label>
+              <input name="name" placeholder="Enter name here.."/>
+              <label for="email">Email:</label>
+              <input name="email" placeholder="Enter email here.."/>
+              <label for="comments">Comments:</label>
+              <textarea name="comments" placeholder="Enter additional comments here.."></textarea>
       </fieldset>
       <fieldset>
               <input class="btn" type="submit" value="Submit"/>
-<!--          <input class="btn" type="reset" value="Reset Form"/> -->
       </fieldset>
-<!--       </form> -->
   </section>
+
+  <section id="paddingSection"></section>
 
   <footer>
       <h2 id="footer_label">Copyright @</h2>
