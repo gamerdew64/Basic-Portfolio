@@ -50,6 +50,10 @@ For the current version, please refer to the following repository (https://githu
 
 * **Joseph Perkins** - *Initial work*
 
+## Source Template for Current README
+
+<!-- * <script src="https://gist.github.com/PurpleBooth/109311bb0361f32d87a2.js"></script> -->
+
 ## Acknowledgments
 
 * Google is becoming my best friend
